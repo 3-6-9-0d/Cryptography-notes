@@ -19,3 +19,8 @@ if choice == 2:
         key=i
         print(encrypt_text(plain_text,key))
  
+#use it like this: python3 script.py <message> <key> <mode (1=encrypt, 2=brute force)
+
+#example: [user@work ~]$ python3 remade_ad2.py "HELLO" 3 1
+
+#Output : KHOOR
