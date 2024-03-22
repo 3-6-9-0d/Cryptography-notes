@@ -15,5 +15,5 @@ import matplotlib.pyplot as plt
 from IPython.display import display
 %matplotlib inline
 @widgets.interact
-def f(key=(0,len(ALPHABET)),a=widgets.Text(value='HELLO', disabled=False)):
-    print(encrypt_text(a,key))
+def f(key=(0,len(ALPHABET)),plain_text=widgets.Text(value='HELLO', disabled=False)):
+    print(encrypt_text(plain_text,key))
