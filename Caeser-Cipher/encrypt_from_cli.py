@@ -21,6 +21,6 @@ if choice == 2:
  
 #use it like this: python3 script.py <message> <key> <mode (1=encrypt, 2=brute force)
 
-#example: [user@work ~]$ python3 remade_ad2.py "HELLO" 3 1
+#example: [kali@kali ~]$ python3 remade_ad2.py "HELLO" 3 1
 
 #Output : KHOOR
