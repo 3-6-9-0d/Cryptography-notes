@@ -1,8 +1,3 @@
-# resources 
-# https://github.com/loneicewolf/Cryptography-notes-v2/blob/main/Caeser-Cipher/encrypt_from_cli.py
-# https://raw.githubusercontent.com/loneicewolf/Cryptography-notes-v2/main/Caeser-Cipher/encrypt_from_cli.py
-# https://ipython-books.github.io/33-mastering-widgets-in-the-jupyter-notebook/
-
 ALPHABET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def encrypt_text(plain_text,key):
     cipher_text = ''
